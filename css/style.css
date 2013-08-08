@@ -1,0 +1,443 @@
+.frame{
+margin:auto;
+width:1000px;
+background-color:#FAFAFA; /*frame colour*/
+padding: 6px;
+-webkit-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+-moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+}
+
+body {
+    background-color:#999999;
+    margin:auto 0px; padding:0px;
+    text-align:center;
+	}
+
+span {
+    font-family: Helvetica;
+    font-size: 15px;
+    text-align: center;
+    margin:auto;
+    color:none;
+    }
+.logo {
+  text-align:center;
+  letter-spacing:2px;
+}
+.box{
+    margin:auto;
+    //background-color: transparent;
+    //width: 300px;
+    //height: 300px;
+}
+.separator{
+    margin:auto;
+    margin-top:-10px;
+    width:300px;
+    height:2px;
+    background-color:lightgrey;
+}
+.work{
+    font-size: 11px;
+    text-align: center;
+    word-spacing: 2px;
+    font-family: helvetica;
+    }
+#one{
+    width:6px;
+    height:6px;
+    Border-radius:100px;
+    background-color: yellow;
+    }
+.tableone{
+    margin:auto;
+    border-spacing:5px;
+    }
+.link{
+    margin-top:100px;
+}
+.link li{
+    text-align:center;
+    display:inline;
+    padding:0px;
+    color:black;
+    }
+#lists{
+    letter-spacing:2px;
+    text-align:center;
+    padding:0px;
+    margin:auto;
+    }
+a{
+    letter-spacing:2px;
+    font-size: 13px;
+    font-family:helvetica;
+    color: black;
+    line-height:0px;
+    text-decoration:none;
+}
+strong{
+    font-family:Arial italic;
+    color:yellow;
+}
+#title{
+    text-align:center;
+    margin-top:68px;
+    word-spacing:35px;
+    }
+#title p{
+    font-family:helvetica;
+    display:inline;
+    font-size:20px;
+    color:grey;
+    }
+.portfolios{
+    margin-top:-30px;
+    }
+.logoport p{
+    margin-left:10px;
+    font-size:15px;
+    font-family:helvetica;
+    color:navy;
+    }
+.portfolios2{
+    display:inline-block;
+    position:relative;
+    margin:auto;
+    border-spacing:26px;
+    z-index:0;
+    }
+#folios{
+    width:120px;
+    height:120px;
+    Border-radius:100px;
+    background-color:transparent;
+}
+.portfolios3{
+border-spacing:26px;
+    margin:auto;
+z-index:0;
+ 
+    }
+.illuport p{
+    margin-left:10px;
+    font-size:15px;
+    font-family:helvetica;
+    color:navy;
+    }
+ 
+#illufolios{
+    margin-right:60px;
+    margin-left:0;
+    width:300px;
+    height:200px;
+    background-color: transparent;
+}
+ 
+#illufolios2{
+    border-collapse:collapse;
+    margin-right:0;
+    margin-left:60px;
+    width:300px;
+    height:200px;
+    background-color: transparent;
+}
+#title2{
+    text-align:center;
+    margin-top:30px;
+    word-spacing:35px;
+    }
+#title2 p{
+    font-family:helvetica;
+    display:inline;
+    font-size:20px;
+    color:grey;
+    word-spacing:8px;
+    }
+.content{
+    margin-top:30px;
+    width:800px;
+    margin: 0 auto;
+    }
+.content p{
+    font-family:helvetica;
+    display:inline-block;
+    font-size:15px;
+    color:grey;
+    word-spacing:8px;
+    }
+#title3{
+    text-align:center;
+    margin-top:30px;
+    word-spacing:35px;
+    }
+#title3 p{
+    font-family:helvetica;
+    display:inline;
+    font-size:20px;
+    color:grey;
+    word-spacing:8px;
+    }
+.content2{
+    margin-top:30px;
+    width:800px;
+    margin: 0 auto;
+    }
+.content2 p{
+    font-family:helvetica;
+    display:inline-block;
+    font-size:15px;
+    color:grey;
+    word-spacing:8px;
+    }
+
+table.portfolios2 span{
+    position:absolute;
+    visibility:hidden;
+    left:-9999px;
+    }
+
+#folios:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#folios:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:-220px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:-60px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+table.portfolios2 img{
+/*give the thumbnails a frame*/
+background-color:#eae9d4; /*frame colour*/
+padding: 6px; /*frame size*/
+/*add a drop shadow to the frame*/
+-webkit-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+-moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+/*and give the corners a small curve*/
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 300px;
+}
+
+
+#folios2:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/ 
+visibility:visible;
+top:-220px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:100px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+
+#folios2:hover{
+z-index: 50; /*places the popups infront of the thumbnails, which we gave a z-index of 0 in step 1*/ 
+cursor:pointer; /*changes the cursor to a hand*/
+}
+/***We bring the large image back onto the page by reducing left from -9999px (set in step 2) to figures below***/ 
+
+
+#folios3:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/ 
+visibility:visible;
+top:-220px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:260px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+
+#folios3:hover{
+z-index: 50; /*places the popups infront of the thumbnails, which we gave a z-index of 0 in step 1*/ 
+cursor:pointer; /*changes the cursor to a hand*/
+}
+/***We bring the large image back onto the page by reducing left from -9999px (set in step 2) to figures below***/ 
+
+#folios4:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/ 
+visibility:visible;
+top:-220px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:420px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+
+#folios4:hover{
+z-index: 50; /*places the popups infront of the thumbnails, which we gave a z-index of 0 in step 1*/ 
+cursor:pointer; /*changes the cursor to a hand*/
+}
+/***We bring the large image back onto the page by reducing left from -9999px (set in step 2) to figures below***/ 
+
+
+#folios5:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/ 
+visibility:visible;
+top:-220px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:580px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+
+#folios5:hover{
+z-index: 50; /*places the popups infront of the thumbnails, which we gave a z-index of 0 in step 1*/ 
+cursor:pointer; /*changes the cursor to a hand*/
+}
+/***We bring the large image back onto the page by reducing left from -9999px (set in step 2) to figures below***/ 
+
+
+#folios6:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#folios6:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:-55px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:-60px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+#folios7:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#folios7:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:-55px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:100px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+#folios8:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#folios8:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:-55px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:260px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+#folios9:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#folios9:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:-55px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:420px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+#folios10:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#folios10:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:-55px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:580px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+#folios11:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#folios11:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:110px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:-60px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+#folios12:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#folios12:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:110px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:100px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+#folios13:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#folios13:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:110px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:260px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+#folios14:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#folios14:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:110px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:420px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+#folios15:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#folios15:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:110px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:580px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+
+table.portfolios2 img.two{
+/*give the thumbnails a frame*/
+background-color:#eae9d4; /*frame colour*/
+padding: 6px; /*frame size*/
+/*add a drop shadow to the frame*/
+-webkit-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+-moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+/*and give the corners a small curve*/
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 10px;
+}
+
+
+
+#illufolios:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#illufolios:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:250px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:-60px; /*distance from the left of the thumbnail to the left of the popup image*/
+border-radius: 0px;
+}
+
+#illufolios2:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#illufolios2:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:250px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:375px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
