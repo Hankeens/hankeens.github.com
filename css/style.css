@@ -141,14 +141,14 @@ strong{
     position:relative;
     }
 .logoport{
+    padding:auto;
     margin:auto 0px;
     font-family:helvetica;
     }
 
 .portfolios2{
-    padding:auto;
     display:inline-block;
-    margin:auto;
+    margin:auto 0px;
     border-spacing:30px;
     z-index:0;
     position:relative;
@@ -186,7 +186,7 @@ strong{
 #color{
     box-shadow: 0px 0px 8px #888888;
     padding-top:2px;
-    height:200px;
+    height:350px;
     background-color:#F2F2F2;
 }
 #title2{
@@ -202,7 +202,7 @@ strong{
     }
 .content{
     margin-top:30px;
-    width:800px;
+    width:auto 0px;
     margin: 0 auto;
     }
 .content p{
@@ -302,14 +302,14 @@ border-radius: 10px;
 
 #folios:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:-220px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:-235px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:-60px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
 
 #folios2:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/ 
 visibility:visible;
-top:-220px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:-235px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:100px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -323,7 +323,7 @@ cursor:pointer; /*changes the cursor to a hand*/
 
 #folios3:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/ 
 visibility:visible;
-top:-220px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:-235px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:260px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -336,7 +336,7 @@ cursor:pointer; /*changes the cursor to a hand*/
 
 #folios4:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/ 
 visibility:visible;
-top:-220px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:-235px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:420px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -350,7 +350,7 @@ cursor:pointer; /*changes the cursor to a hand*/
 
 #folios5:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/ 
 visibility:visible;
-top:-220px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:-235px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:580px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -370,7 +370,7 @@ cursor:pointer; /*changes the cursor to a hand*/
 
 #folios6:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:-55px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:-67px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:-60px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -382,7 +382,7 @@ left:-60px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios7:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:-55px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:-67px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:100px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -394,7 +394,7 @@ left:100px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios8:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:-55px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:-67px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:260px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -406,7 +406,7 @@ left:260px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios9:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:-55px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:-67px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:420px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -418,7 +418,7 @@ left:420px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios10:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:-55px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:-67px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:580px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -430,7 +430,7 @@ left:580px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios11:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:109px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:102px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:-60px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -442,7 +442,7 @@ left:-60px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios12:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:109px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:102px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:100px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -454,7 +454,7 @@ left:100px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios13:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:109px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:102px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:260px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -466,7 +466,7 @@ left:260px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios14:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:109px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:102px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:420px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -478,7 +478,7 @@ left:420px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios15:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:109px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:102px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:580px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -490,7 +490,7 @@ left:580px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios16:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:273px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:270px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:-60px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -502,7 +502,7 @@ left:-60px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios17:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:273px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:270px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:100px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -514,7 +514,7 @@ left:100px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios18:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:273px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:270px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:260px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -526,7 +526,7 @@ left:260px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios19:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:273px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:270px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:420px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -538,7 +538,7 @@ left:420px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios20:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:273px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:270px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:580px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -550,7 +550,7 @@ left:580px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios21:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:437px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:438px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:-60px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -562,7 +562,7 @@ left:-60px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios22:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:437px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:438px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:100px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -574,7 +574,7 @@ left:100px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios23:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:437px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:438px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:260px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -586,7 +586,7 @@ left:260px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios24:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:437px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:438px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:420px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -598,7 +598,7 @@ left:420px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios25:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:437px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:438px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:580px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -610,7 +610,7 @@ left:580px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios26:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:601px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:605px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:-60px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -622,7 +622,7 @@ left:-60px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios27:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:601px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:605px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:100px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -634,7 +634,7 @@ left:100px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios28:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:601px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:605px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:260px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -646,7 +646,7 @@ left:260px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios29:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:601px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:605px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:420px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 
@@ -658,9 +658,79 @@ left:420px; /*distance from the left of the thumbnail to the left of the popup i
 
 #folios30:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
 visibility:visible;
-top:601px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+top:605px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
 left:580px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
+
+#folios31:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#folios31:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:773px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:-60px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+#folios32:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#folios32:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:773px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:100px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+#folios33:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#folios33:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:773px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:260px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+#folios34:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#folios34:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:773px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:420px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+#folios35:hover{
+    z-index:50;
+    cursor:pointer;
+}
+
+
+#folios35:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:773px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:580px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+
+
+#folios30:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+visibility:visible;
+top:773px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left:580px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+
 
 
 
