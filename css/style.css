@@ -4,6 +4,10 @@ width:1000px;
 background-color:transparent;
 padding: 6px;
 }*/
+.nav{
+    margin:auto;
+    width:1000px;
+}
 #til p{
     position:absolute;
     margin:auto;
@@ -19,13 +23,13 @@ padding: 6px;
 .about{
     position:relative;
     margin-right:600px;
-    margin-top:-120px;
+    margin-top:-90px;
     z-index:0;
 }
 .hire{
     position:relative;
     margin-right:600px;
-    margin-top:-120px;
+    margin-top:-130px;
     z-index:0;
 }
 .port{
@@ -50,6 +54,8 @@ span {
     color:#999999;
     }
 .logo {
+    margin:auto;
+    width:1000px;
     text-align:center;
     letter-spacing:2px;
 }
@@ -209,9 +215,8 @@ strong{
     word-spacing:8px;
     }
 .content{
-    margin-top:30px;
-    width:auto 0px;
-    margin: 0 auto;
+    width:auto;
+    margin:auto;
     }
 .content p{
     font-family:helvetica;
