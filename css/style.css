@@ -737,11 +737,11 @@ left:580px; /*distance from the left of the thumbnail to the left of the popup i
 
 
 
-#folios30:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
-visibility:visible;
-top:773px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
-left:580px; /*distance from the left of the thumbnail to the left of the popup image*/
-}
+/*#folios30:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+/*visibility:visible;*/
+/*top:773px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+/*left:580px; /*distance from the left of the thumbnail to the left of the popup image*/
+/*}*/
 
 
 
