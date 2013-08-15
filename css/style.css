@@ -4,6 +4,12 @@ width:1000px;
 background-color:transparent;
 padding: 6px;
 }*/
+.birdy{
+    z-index:50;
+    position:absolute;
+    margin-top:80px;
+    margin-left:339px;
+}
 .nav{
     margin:auto;
     width:1000px;
